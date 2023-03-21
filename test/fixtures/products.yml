@@ -1,0 +1,17 @@
+# ps4:
+#   title: PS4 Fat
+#   description: PS4 en bon état
+#   price: 150
+#    category: videogames
+
+# switch:
+#   title: Nintendo Switch
+#   description: Problème de lecteur
+#   price: 30
+#   category: videogames
+
+# air:
+#   title: MacBook Air
+#   description: Rayure sur l'écran
+#   price: 420
+#   category: computers

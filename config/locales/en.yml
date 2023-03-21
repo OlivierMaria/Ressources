@@ -1,0 +1,97 @@
+en:
+  app_name: "SellIT"
+  meta_title: "Buy and sell second hand products!"
+  activerecord:
+    models:
+      product: Product
+      user: User
+      category: Category
+    attributes:
+      product:
+        title: "Title"
+        description: "Description"
+        price: "Price"
+        photo: "Photo"
+      user:
+        email: "Email"
+        username: "Username"
+        password: "Password"
+      category:
+        name: "Name"
+  common:
+    confirm: "Are you sure?"
+    back: "Go back"
+    not_logged_in: "You have to login or create an account"
+    not_authorized: "You don not have permissions for this action"
+    not_found: "Not found"
+  shared:
+    header:
+      add: "Add product"
+      login: "Login"
+      register: "Register"
+      logout: "Logout"
+      favorites: "My favorites"
+  authentication:
+    users:
+      create:
+        created: "Your account has been created!"
+    sessions:
+      create:
+        created: "Welcome!"
+        failed: "Invalid login!"
+      destroy:
+        destroyed: "Session ended. Bye!"
+  products:
+    edit:
+      title: "Edit product"
+    new:
+      title: "Add product"
+    form:
+      title_placeholder: "What do you want to sell?"
+      description_placeholder: "Could you describe your product?"
+      price_placeholder: "For how much?"
+      category_placeholder: "In what category could fit better?"
+      submit: "Sell it now!"
+    index:
+      title: "Products:"
+      all: "All"
+      min_price: "Min price"
+      max_price: "Max price"
+      query_text: "What do you want to search?"
+      expensive: "Expensive first"
+      cheapest: "Cheaper first"
+      newest: "Recently added"
+    show:
+      edit: "Edit product"
+      delete: "Delete product"
+      view_more_products: "View more products by %{username}"
+    create:
+      created: "Your product has been successfully created"
+    update:
+      updated: "Your product has been successfully updated"
+    destroy:
+      destroyed: "Your product has been successfully destroyed"
+  categories:
+    category:
+      edit: "Edit"
+      delete: "Delete"
+    index:
+      title: "Categories"
+      new: "Add category"
+    edit:
+      title: "Edit category"
+    create:
+      created: "Your category has been successfully created"
+    update:
+      updated: "Your category has been successfully updated"
+    destroy:
+      destroyed: "Your category has been successfully destroyed"
+    new:
+      title: "New category"
+  favorites:
+    index:
+      title: "My favorites"
+  user_mailer:
+    welcome:
+      subject: "Welcome to SellIT"
+      welcome_message: "Hey %{username}, welcome to SellIT. We hope you sell a lot!"
